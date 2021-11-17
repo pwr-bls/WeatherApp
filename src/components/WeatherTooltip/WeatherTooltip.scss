@@ -1,0 +1,13 @@
+.tooltip {
+  &-row {
+    display: flex;
+    &__param {
+      font-weight: bold;
+    }
+    &__value {
+      margin-left: 4px;
+      font-weight: normal;
+    }
+  }
+
+}

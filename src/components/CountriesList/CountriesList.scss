@@ -1,0 +1,18 @@
+.coutriesListContainer {
+  position: absolute;
+  padding: 10px;
+  max-width: 30vw;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 235, 205, 0.90);
+  height: 100vh;
+}
+.countriesList {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  height: calc(100vh - 120px);
+  max-height: 100%;
+}

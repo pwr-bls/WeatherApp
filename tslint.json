@@ -1,0 +1,57 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-standard",
+    "tslint-react",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "jsx-boolean-value": ["never"],
+    "no-any": false,
+    "no-empty-interface": true,
+    "jsx-space-before-trailing-slash": true,
+    "no-magic-numbers": false,
+    "no-parameter-reassignment": true,
+    "await-promise": true,
+    "curly": true,
+    "label-position": true,
+    "no-debugger": true,
+    "no-duplicate-super": true,
+    "no-duplicate-switch-case": true,
+    "no-duplicate-variable": true,
+    "no-empty": true,
+    "no-eval": true,
+    "no-floating-promises": false,
+    "no-implicit-dependencies": [true, "dev"],
+    "no-invalid-template-strings": true,
+    "no-shadowed-variable": true,
+    "no-string-literal": true,
+    "no-string-throw": true,
+    "no-unnecessary-class": true,
+    "no-unsafe-finally": true,
+    "radix": true,
+    "restrict-plus-operands": true,
+    "switch-default": true,
+    "triple-equals": [true, "allow-null-check"],
+    "use-isnan": true,
+    "deprecation": true,
+    "no-duplicate-imports": true,
+    "interface-name": true,
+    "prefer-template": true,
+    "prefer-const": true,
+    "jsx-no-lambda": false,
+    "member-access": false,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "quotemark": [true, "single", "jsx-double"],
+    "interface-over-type-literal": false,
+    "no-return-await": true,
+    "semicolon": [true, "never"]
+  },
+  "jsRules": {
+    "no-empty": true
+  },
+  "linterOptions": {
+    "exclude": ["index.js", "config/**/*.js", "node_modules/**/*.ts", "src/**/*.css"]
+  }
+}
